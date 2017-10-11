@@ -13,6 +13,7 @@
 		B08F433F1F8E701E00BB9D18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08F433D1F8E701E00BB9D18 /* LaunchScreen.storyboard */; };
 		B08F43481F8E720700BB9D18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08F43461F8E720700BB9D18 /* Main.storyboard */; };
 		B08F434B1F8E79C800BB9D18 /* More.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08F43491F8E79C800BB9D18 /* More.storyboard */; };
+		B08F434E1F8E7B5000BB9D18 /* ContactDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08F434C1F8E7B5000BB9D18 /* ContactDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B08F43401F8E701E00BB9D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B08F43471F8E720700BB9D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B08F434A1F8E79C800BB9D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LearningStoryboardReferences/Base.lproj/More.storyboard; sourceTree = "<group>"; };
+		B08F434D1F8E7B5000BB9D18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ContactDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				B08F43341F8E701E00BB9D18 /* AppDelegate.swift */,
 				B08F43361F8E701E00BB9D18 /* ViewController.swift */,
-				B08F43491F8E79C800BB9D18 /* More.storyboard */,
 				B08F43461F8E720700BB9D18 /* Main.storyboard */,
+				B08F43491F8E79C800BB9D18 /* More.storyboard */,
+				B08F434C1F8E7B5000BB9D18 /* ContactDetail.storyboard */,
 				B08F433B1F8E701E00BB9D18 /* Assets.xcassets */,
 				B08F433D1F8E701E00BB9D18 /* LaunchScreen.storyboard */,
 				B08F43401F8E701E00BB9D18 /* Info.plist */,
@@ -127,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08F433F1F8E701E00BB9D18 /* LaunchScreen.storyboard in Resources */,
+				B08F434E1F8E7B5000BB9D18 /* ContactDetail.storyboard in Resources */,
 				B08F434B1F8E79C800BB9D18 /* More.storyboard in Resources */,
 				B08F43481F8E720700BB9D18 /* Main.storyboard in Resources */,
 				B08F433C1F8E701E00BB9D18 /* Assets.xcassets in Resources */,
@@ -170,6 +174,14 @@
 				B08F434A1F8E79C800BB9D18 /* Base */,
 			);
 			name = More.storyboard;
+			sourceTree = "<group>";
+		};
+		B08F434C1F8E7B5000BB9D18 /* ContactDetail.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B08F434D1F8E7B5000BB9D18 /* Base */,
+			);
+			name = ContactDetail.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

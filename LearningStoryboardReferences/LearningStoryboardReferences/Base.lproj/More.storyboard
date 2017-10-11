@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VOV-cS-J0p">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -15,7 +18,7 @@
                         <viewControllerLayoutGuide type="bottom" id="mh7-zY-nHJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hSQ-CI-64d">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kA-ME-nez">
@@ -87,7 +90,7 @@
                         <viewControllerLayoutGuide type="bottom" id="zfV-sD-vKj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="gQ2-1v-8Xg">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CV2-sq-0Ag">
@@ -127,7 +130,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IyT-uo-ohJ"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L0F-Sc-lsj">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feedback form goes here." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ch2-2e-yey">
@@ -158,7 +161,7 @@
                         <viewControllerLayoutGuide type="bottom" id="DPs-1Y-6SY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rXt-5W-DSm">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UbK-yR-gh8">
@@ -223,7 +226,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
                         <viewControllerLayoutGuide type="bottom" id="H8m-tt-lHF"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="bbh-47-gp1">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ray" translatesAutoresizingMaskIntoConstraints="NO" id="ue5-FM-UiM">
@@ -261,7 +264,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
                 <navigationController id="VOV-cS-J0p" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="more" id="BHz-ar-zqw"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="X5U-vj-SaM">
-                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
