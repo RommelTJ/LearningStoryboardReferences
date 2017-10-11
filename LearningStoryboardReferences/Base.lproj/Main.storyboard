@@ -36,15 +36,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v9e-iP-k6p" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1787" y="-345"/>
-        </scene>
-        <!--ContactDetail-->
-        <scene sceneID="HEw-Fb-7rP">
-            <objects>
-                <viewControllerPlaceholder storyboardName="ContactDetail" id="EB4-jm-8D9" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HGL-t4-oww" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-2822" y="1209"/>
+            <point key="canvasLocation" x="-2246" y="-673"/>
         </scene>
         <!--Contacts-->
         <scene sceneID="lol-HK-n3J">
@@ -54,7 +46,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZU-3j-4Rc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3171" y="-345"/>
+            <point key="canvasLocation" x="-2714" y="-673"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="x7z-OZ-5oR">
@@ -64,7 +56,7 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5kB-de-Gue" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2484" y="-345"/>
+            <point key="canvasLocation" x="-2485" y="-673"/>
         </scene>
     </scenes>
 </document>
