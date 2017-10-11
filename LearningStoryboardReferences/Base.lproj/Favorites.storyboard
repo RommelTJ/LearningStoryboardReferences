@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dUu-R6-Pfi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Favorites-->
+        <scene sceneID="pOg-e9-e58">
+            <objects>
+                <tableViewController id="LCP-0y-3Ac" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="67" sectionHeaderHeight="22" sectionFooterHeight="22" id="yot-nC-bVa">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="p8m-Ep-EPz">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="239" id="l0i-yr-64g">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="239"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="l0i-yr-64g" id="ivv-sw-mfX">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="238.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Tom" translatesAutoresizingMaskIntoConstraints="NO" id="kBZ-WF-vpS">
+                                                    <rect key="frame" x="117.5" y="49" width="140" height="140"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="140" id="Ni9-Hc-64c"/>
+                                                        <constraint firstAttribute="width" constant="140" id="SOb-7F-Hit"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="kBZ-WF-vpS" firstAttribute="centerX" secondItem="ivv-sw-mfX" secondAttribute="centerX" id="0OM-yS-4mF"/>
+                                                <constraint firstItem="kBZ-WF-vpS" firstAttribute="centerY" secondItem="ivv-sw-mfX" secondAttribute="centerY" id="6fs-KA-2dS"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="EB4-jm-8D9" kind="show" id="kgz-W3-nYL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="LCP-0y-3Ac" id="roK-dl-4HN"/>
+                            <outlet property="delegate" destination="LCP-0y-3Ac" id="Nzb-0r-1Nc"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Favorites" id="nUQ-r8-C0R"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5tP-XB-CW9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2484" y="409"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DuX-JW-8dY">
+            <objects>
+                <navigationController id="dUu-R6-Pfi" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="Maz-nj-wnb"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yeK-Ac-0BV">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="LCP-0y-3Ac" kind="relationship" relationship="rootViewController" id="Tyk-Mt-uwb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qTq-28-IST" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2484" y="-345"/>
+        </scene>
+        <!--ContactDetail-->
+        <scene sceneID="HEw-Fb-7rP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ContactDetail" id="EB4-jm-8D9" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGL-t4-oww" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2822" y="1209"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Tom" width="136" height="141"/>
+    </resources>
+</document>
