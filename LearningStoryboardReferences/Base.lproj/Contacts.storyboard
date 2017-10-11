@@ -68,11 +68,25 @@
                             <outlet property="delegate" destination="3ea-hR-8Qc" id="Nig-E9-qJs"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Contacts" id="czf-oj-zWN"/>
+                    <navigationItem key="navigationItem" title="Contacts" id="czf-oj-zWN">
+                        <barButtonItem key="rightBarButtonItem" title="Account" id="xNh-Xi-OTy">
+                            <connections>
+                                <segue destination="VJi-9u-pUy" kind="show" id="Lgb-me-m18"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gx4-ok-iid" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3171" y="409"/>
+        </scene>
+        <!--accountViewController-->
+        <scene sceneID="iun-W2-gav">
+            <objects>
+                <viewControllerPlaceholder storyboardName="More" referencedIdentifier="accountViewController" id="VJi-9u-pUy" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0VC-bf-zAN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2550" y="309"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hfm-CF-EjJ">
@@ -97,7 +111,7 @@
                 <viewControllerPlaceholder storyboardName="ContactDetail" id="EB4-jm-8D9" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HGL-t4-oww" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3173" y="904"/>
+            <point key="canvasLocation" x="-2552" y="432"/>
         </scene>
     </scenes>
     <resources>

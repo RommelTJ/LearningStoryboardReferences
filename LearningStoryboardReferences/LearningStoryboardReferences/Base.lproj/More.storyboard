@@ -220,7 +220,7 @@ Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolor
         <!--Account Details-->
         <scene sceneID="aKR-Aw-k76">
             <objects>
-                <viewController id="jwY-KC-BNI" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="accountViewController" id="jwY-KC-BNI" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CKN-fl-Z3i"/>
                         <viewControllerLayoutGuide type="bottom" id="H8m-tt-lHF"/>
